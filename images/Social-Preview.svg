@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="18px" viewBox="0 0 32 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Social-Preview</title>
+    <defs>
+        <linearGradient x1="34.8781711%" y1="34.2165827%" x2="52.491983%" y2="65.8203125%" id="linearGradient-1">
+            <stop stop-color="#B786BC" stop-opacity="0.774647959" offset="0%"></stop>
+            <stop stop-color="#64FFDA" stop-opacity="0.024944172" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Social-Preview" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#64FFDA" x="0" y="0" width="32" height="18"></rect>
+        <g id="Group-3" transform="translate(11.000000, 1.000000)">
+            <g id="Group-2" transform="translate(0.000000, 0.500000)" fill="#283593">
+                <polygon id="Path-2" points="7.5 0.5 7 1 8.5 4.5 9 4"></polygon>
+                <polygon id="Path-2-Copy" opacity="0.7" points="3 8.5 3.5 8.5 9.5 5 8.5 4"></polygon>
+                <polygon id="Path" opacity="0.7" points="1 0 7 0.5 1 1"></polygon>
+                <polygon id="Path-3" points="2.5 8.5 3.5 8.5 1.5 0.5 0.5 0.5"></polygon>
+                <polygon id="Path-4" opacity="0.7" points="4.5 14.5 5.5 14.5 3.5 8.5 2.5 8.5"></polygon>
+            </g>
+            <g id="Group" fill="#1A237E" stroke="#FFAB91" stroke-width="0.1">
+                <circle id="Oval" cx="9" cy="5" r="1"></circle>
+                <circle id="Oval-Copy" cx="7" cy="1" r="1"></circle>
+                <circle id="Oval-Copy-2" cx="1" cy="1" r="1"></circle>
+                <circle id="Oval-Copy-3" cx="5" cy="15" r="1"></circle>
+                <circle id="Oval-Copy-4" cx="3" cy="9" r="1"></circle>
+            </g>
+        </g>
+        <rect id="Rectangle" fill="url(#linearGradient-1)" style="mix-blend-mode: hard-light;" x="0" y="0" width="32" height="18"></rect>
+    </g>
+</svg>
