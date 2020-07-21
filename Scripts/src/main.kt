@@ -1,9 +1,12 @@
 
-import jquery.*
+package PolyculeGrapher
+import jQueryInterface.*
 
-fun main(args: Array<String>) {
+fun main() {
     jq {
-        jq("main").text("Test")
-        console.log("Tested")
+        jq("#polyculeGraph")
+                .append(PolyculeGraphModel(nodes= emptyList(), connections= emptyList())
+                        .svgContents()
+                )
     }
 }

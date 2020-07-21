@@ -8,8 +8,5 @@ if [ 0 -ne $bundleCheckStatus ]; then
     source updateGems.sh
 fi
 
-rm -r _site/
-
-# jekyll serve --trace --incremental
 bundle exec jekyll clean
 bundle exec jekyll serve --trace --incremental --safe

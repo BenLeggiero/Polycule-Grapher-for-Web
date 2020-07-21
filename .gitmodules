@@ -10,3 +10,6 @@
 [submodule "_includes/Jekyll-Anchor-Headings"]
 	path = _includes/Jekyll-Anchor-Headings
 	url = https://github.com/allejo/jekyll-anchor-headings.git
+[submodule "Scripts/lib/BHStudiosScripts"]
+	path = Scripts/lib/BHStudiosScripts
+	url = https://github.com/BlueHuskyStudios/scripts.git

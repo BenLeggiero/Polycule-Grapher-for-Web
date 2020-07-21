@@ -7,4 +7,20 @@ scripts:
         name: "Scripts for this web app"
 ---
 
-Something cool will go here
+<noscript>
+    <header>
+        <h1>
+            Enable JavaScript to use {{ site.name }}
+        </h1>
+    </header>
+
+
+    {{ site.name }} is a web app that lets you interactively graph a polycule. To let you interact with it, it requires JavaScript.
+</noscript>
+
+
+<section class="show-only-when-js-is-enabled">
+    <svg id="panel" oncontextmenu="return false;" width="960" height="500"><g transform="translate(0,0)"><g transform="scale(1)"><g><line class="link dragline hidden"></line><g><g class="link"><line x1="477.1765668873581" y1="327.82241825146275" x2="575.7742389331472" y2="281.2777411988426" stroke-width="4" stroke-dasharray="2.6666666666666665,2.6666666666666665"></line><text class="center-text meaning hidden" dx="526.4754029102527" dy="294.55007972515267"></text><text class="source-text meaning hidden" dx="477.1765668873581" dy="351.82241825146275"></text><text class="target-text meaning hidden" dx="575.7742389331472" dy="295.2777411988426"></text></g><g class="link"><line x1="477.1765668873581" y1="327.82241825146275" x2="502.28568077781796" y2="265.05959371755273" stroke-width="10"></line><text class="center-text meaning hidden" dx="489.731123832588" dy="286.44100598450774"></text><text class="source-text meaning hidden" dx="477.1765668873581" dy="351.82241825146275"></text><text class="target-text meaning hidden" dx="502.28568077781796" dy="289.05959371755273"></text></g><g class="link"><line x1="421.2531162386556" y1="288.2034352450913" x2="477.1765668873581" y2="327.82241825146275" stroke-width="10"></line><text class="center-text meaning hidden" dx="449.21484156300687" dy="298.01292674827704"></text><text class="source-text meaning hidden" dx="421.2531162386556" dy="312.2034352450913"></text><text class="target-text meaning hidden" dx="477.1765668873581" dy="351.82241825146275"></text></g><g class="link"><line x1="421.2531162386556" y1="288.2034352450913" x2="406.70461741051344" y2="221.48254576316236" stroke-width="10"></line><text class="center-text meaning hidden" dx="413.97886682458454" dy="244.84299050412685"></text><text class="source-text meaning hidden" dx="421.2531162386556" dy="312.2034352450913"></text><text class="target-text meaning hidden" dx="406.70461741051344" dy="245.48254576316236"></text></g></g><g><g class="node" transform="translate(477.1765668873581,327.82241825146275)"><circle class="node" r="12"></circle><text x="0" y="-14" class="id" text-anchor="middle">Me</text></g><g class="node" transform="translate(421.2531162386556,288.2034352450913)"><circle class="node" r="12"></circle><text x="0" y="-14" class="id" text-anchor="middle">Husband</text></g><g class="node" transform="translate(502.28568077781796,265.05959371755273)"><circle class="node" r="12"></circle><text x="0" y="-14" class="id" text-anchor="middle">Paramour</text></g><g class="node" transform="translate(406.70461741051344,221.48254576316236)"><circle class="node" r="12"></circle><text x="0" y="-14" class="id" text-anchor="middle">Metamour</text></g><g class="node" transform="translate(575.7742389331472,281.2777411988426)"><circle class="node" r="7" style="fill: rgb(204, 204, 204) !important; --darkreader-inline-fill:#c8c3bc;" stroke-dasharray="1.75,1.75" data-darkreader-inline-fill=""></circle><text x="0" y="-9" class="id" text-anchor="middle">Ex-boyfriend</text></g></g></g></g></g></svg>
+    
+    <svg id="polyculeGraph" width="960" height="600"></svg>
+</section>
